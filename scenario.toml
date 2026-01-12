@@ -8,7 +8,7 @@ name = "white_agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-max_steps = 10
+max_steps = 11
 
 [[tasks]]
 task_id = "20a460a8fe1971b84411c5b1e6ac4186"
