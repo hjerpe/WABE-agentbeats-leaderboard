@@ -4,7 +4,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be pr
 
 [[participants]]
 agentbeats_id = "019bb40d-ac4e-7901-8643-78d487103077" # Your purple agent id here
-name = "agent"
+name = "white_agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
