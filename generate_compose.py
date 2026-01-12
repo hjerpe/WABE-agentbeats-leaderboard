@@ -219,7 +219,16 @@ def generate_a2a_scenario(scenario: dict[str, Any]) -> str:
         participant_lines.append("\n".join(lines) + "\n")
 
     config_section = scenario.get("config", {})
-    config_lines = [tomli_w.dumps({"config": config_section})]
+    tasks_section = scenario.get("tasks", [])
+
+    # Build the remaining sections
+    remaining = {}
+    if config_section:
+        remaining["config"] = config_section
+    if tasks_section:
+        remaining["tasks"] = tasks_section
+
+    config_lines = [tomli_w.dumps(remaining)] if remaining else []
 
     return A2A_SCENARIO_TEMPLATE.format(
         green_port=DEFAULT_PORT,
