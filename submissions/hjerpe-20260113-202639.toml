@@ -1,0 +1,32 @@
+[green_agent]
+agentbeats_id = "019bb3ba-c606-7840-bf1b-8034c2632fc1" # Your green agent id here
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like OPENAI_API_KEY here.
+
+[[participants]]
+agentbeats_id = "019bb40d-ac4e-7901-8643-78d487103077" # Your purple agent id here
+name = "white_agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+max_steps = 11
+
+[[tasks]]
+task_id = "ade4c09ad3fdb1607209750924cd232f"
+task = "Compare available plans for the AeroAPI on Flightaware."
+website = "https://www.flightaware.com/"
+reference_length = 4
+level = "easy"
+
+[[tasks]]
+task_id = "005be9dd91c95669d6ddde9ae667125c"
+task = "Find the weight of baggage allowance for economy class on Qatar Airways."
+website = "https://www.qatarairways.com/"
+reference_length = 4
+level = "easy"
+
+[[tasks]]
+task_id = "4091bdd3fa64a5b0d912bc08eaf9c824"
+task = "Find the list of neighborhood maps for Brooklyn on new.mta.info."
+website = "https://new.mta.info/"
+reference_length = 5
+level = "easy"

@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/hjerpe/wabe@sha256:d1506b23275a75499c8c72ea601abf8612dafc63fe24eb32ab555adae081fe43",
+    "white_agent": "ghcr.io/hjerpe/wabe-purple@sha256:382c090c25f1736e27e1803d4feb7be65e73d2d76ac9b173d56a226bbd15c2a3",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-13T20:26:39Z",
+  "github_actions": {
+    "run_url": "https://github.com/hjerpe/WABE-agentbeats-leaderboard/actions/runs/20971376089",
+    "run_logs_url": "https://api.github.com/repos/hjerpe/WABE-agentbeats-leaderboard/actions/runs/20971376089/logs",
+    "ref": "refs/heads/assessment-11",
+    "sha": "589ae782ade4a90107dfdabdf27d0c8c923151e0",
+    "repository_url": "https://github.com/hjerpe/WABE-agentbeats-leaderboard",
+    "workflow_ref": "hjerpe/WABE-agentbeats-leaderboard/.github/workflows/run-scenario.yml@refs/heads/assessment-11",
+    "workflow_sha": "589ae782ade4a90107dfdabdf27d0c8c923151e0"
+  }
+}
