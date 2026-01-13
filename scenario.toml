@@ -1,29 +1,16 @@
 [green_agent]
-agentbeats_id = "019bb3ba-c606-7840-bf1b-8034c2632fc1" # Your green agent id here
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like OPENAI_API_KEY here.
+agentbeats_id = ""
+env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = "019bb40d-ac4e-7901-8643-78d487103077" # Your purple agent id here
-name = "white_agent"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+agentbeats_id = ""
+name = "role_1_name"
+env = {}
+
+[[participants]]
+agentbeats_id = ""
+name = "role_2_name"
+env = {}
 
 [config]
-max_steps = 11
-
-[[tasks]]
-task_id = "20a460a8fe1971b84411c5b1e6ac4186"
-website = "https://www.stubhub.com/"
-task = "Show theatre events for Las Vegas and select one."
-level = "easy"
-
-[[tasks]]
-task_id = "561693d6eec7bbfba3fefe9e4b26decb"
-website = "https://www.marriott.com/"
-task = "Browse Marriott Bonvoy credit cards on Marriott."
-level = "easy"
-
-[[tasks]]
-task_id = "b6d10e9bd19b4009a02dea0e98f4e1ae"
-website = "https://www.foxsports.com/"
-task = "Check the current standings for MLS on Fox Sports."
-level = "easy"
+# Add your assessment config here
