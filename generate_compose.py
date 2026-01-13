@@ -218,8 +218,15 @@ def generate_a2a_scenario(scenario: dict[str, Any]) -> str:
             lines.append(f"agentbeats_id = \"{p['agentbeats_id']}\"")
         participant_lines.append("\n".join(lines) + "\n")
 
-    config_section = scenario.get("config", {})
-    config_lines = [tomli_w.dumps({"config": config_section})]
+    # Build config section with tasks embedded
+    config_section = dict(scenario.get("config", {}))  # Make a copy
+    tasks_section = scenario.get("tasks", [])
+
+    # Embed tasks inside config since agentbeats-client only forwards config
+    if tasks_section:
+        config_section["tasks"] = tasks_section
+
+    config_lines = [tomli_w.dumps({"config": config_section})] if config_section else []
 
     return A2A_SCENARIO_TEMPLATE.format(
         green_port=DEFAULT_PORT,
