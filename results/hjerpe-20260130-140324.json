@@ -1,0 +1,47 @@
+{
+  "participants": {
+    "white_agent": "019c0ef6-a084-72d2-b71e-e2666c0ce428"
+  },
+  "results": [
+    {
+      "winner": "white_agent",
+      "detail": {
+        "success_rate": 0.0,
+        "successful_tasks": 1,
+        "total_tasks": 1,
+        "tasks": [
+          {
+            "task_id": "reliability_sl_se_travel_time",
+            "task_id_with_timestamp": "reliability_sl_se_travel_time_20260130_140246_287361",
+            "website": "https://sl.se/",
+            "task_description": "Find the travel time from T-Centralen to Artipelag using the SL.se journey planner.",
+            "level": "easy",
+            "success": true,
+            "steps_taken": 7,
+            "max_steps": 10,
+            "thoughts": [
+              "Step 1: Accept cookie consent",
+              "Step 2: Type departure station",
+              "Step 3: Select T-Centralen from suggestions",
+              "Step 4: Type destination",
+              "Step 5: Element not found: Artipelag.*[Vv]\u00e4rmd, requesting snapshot",
+              "Step 6: Click search button",
+              "Step 7: Task complete, closing browser"
+            ],
+            "action_history": [
+              "<e12> -> CLICK",
+              "<e47> -> TYPE: T-Centralen",
+              "<e46> -> CLICK",
+              "<e20> -> TYPE: Artipelag",
+              "<unknown> -> BROWSER_SNAPSHOT",
+              "<e332> -> CLICK",
+              "<unknown> -> BROWSER_CLOSE"
+            ],
+            "screenshots": [],
+            "error": null
+          }
+        ]
+      }
+    }
+  ]
+}
