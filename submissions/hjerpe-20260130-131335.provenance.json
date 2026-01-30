@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/hjerpe/wabe@sha256:d1506b23275a75499c8c72ea601abf8612dafc63fe24eb32ab555adae081fe43",
+    "white_agent": "ghcr.io/hjerpe/wabe-purple-reliability@sha256:a5a5a146fc82ab54548294129cbef1584e33cabd04bbd90d4dde6c38c24f1227",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-30T13:13:35Z",
+  "github_actions": {
+    "run_url": "https://github.com/hjerpe/WABE-agentbeats-leaderboard/actions/runs/21516980875",
+    "run_logs_url": "https://api.github.com/repos/hjerpe/WABE-agentbeats-leaderboard/actions/runs/21516980875/logs",
+    "ref": "refs/heads/assessment-reliability-1",
+    "sha": "c2cac7f0e6f1ee79e0f425c5002985bb2112cfd0",
+    "repository_url": "https://github.com/hjerpe/WABE-agentbeats-leaderboard",
+    "workflow_ref": "hjerpe/WABE-agentbeats-leaderboard/.github/workflows/run-scenario.yml@refs/heads/assessment-reliability-1",
+    "workflow_sha": "c2cac7f0e6f1ee79e0f425c5002985bb2112cfd0"
+  }
+}
