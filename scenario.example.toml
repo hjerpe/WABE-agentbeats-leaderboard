@@ -1,0 +1,17 @@
+[green_agent]
+agentbeats_id = "agent_id_green" # Your green agent id here
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like OPENAI_API_KEY here.
+
+[[participants]]
+agentbeats_id = "agent_id_purple" # Your purple agent id here
+name = "white_agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+max_steps = 11
+
+[[tasks]]
+task_id = "20a460a8fe1971b84411c5b1e6ac4186"
+website = "https://www.stubhub.com/"
+task = "Show theatre events for Las Vegas and select one."
+level = "easy"
