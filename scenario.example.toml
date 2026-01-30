@@ -1,5 +1,5 @@
 [green_agent]
-agentbeats_id = "agent_id_green" # Your green agent id here
+agentbeats_id = "019bb3ba-c606-7840-bf1b-8034c2632fc1" # Your green agent id here
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like OPENAI_API_KEY here.
 
 [[participants]]
