@@ -1,0 +1,17 @@
+[green_agent]
+agentbeats_id = "019bb3ba-c606-7840-bf1b-8034c2632fc1" # Your green agent id here
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like OPENAI_API_KEY here.
+
+[[participants]]
+agentbeats_id = "019c0ef6-a084-72d2-b71e-e2666c0ce428" # Your purple agent id here
+name = "white_agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+max_steps = 10
+
+[[tasks]]
+task_id = "reliability_sl_se_travel_time"
+website = "https://sl.se/"
+task = "Find the travel time from T-Centralen to Artipelag using the SL.se journey planner."
+level = "easy"
