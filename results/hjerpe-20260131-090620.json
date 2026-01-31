@@ -6,9 +6,8 @@
     {
       "winner": "white_agent",
       "detail": {
-        "pass_rate": 20.833333333333336,
-        "passed_tasks": 5,
-        "finished_tasks": 21,
+        "success_rate": 20.833333333333336,
+        "successful_tasks": 21,
         "total_tasks": 24,
         "tasks": [
           {
