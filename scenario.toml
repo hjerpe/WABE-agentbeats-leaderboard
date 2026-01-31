@@ -32,13 +32,6 @@ reference_length = 3
 level = "easy"
 
 [[tasks]]
-task_id = "bf3b311cc8dce16d3de844f4b5875dfd"
-task = "Compare Apple watches and  learn more about the ultra version on apple."
-website = "https://www.apple.com/"
-reference_length = 4
-level = "easy"
-
-[[tasks]]
 task_id = "828c2d98616a9478d5864d847d5a1b28"
 task = "Browse the list of Civil Division forms."
 website = "https://www.justice.gov/"
@@ -56,13 +49,6 @@ level = "easy"
 task_id = "1fc28d91d25ccd1c6ba268101326a654"
 task = "Find the 5-day price chart for Bitcoin."
 website = "https://www.google.com/finance/"
-reference_length = 3
-level = "easy"
-
-[[tasks]]
-task_id = "20a460a8fe1971b84411c5b1e6ac4186"
-task = "Show theatre events for Las Vegas and select one."
-website = "https://www.stubhub.com/"
 reference_length = 3
 level = "easy"
 
