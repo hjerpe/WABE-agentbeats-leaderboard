@@ -11,10 +11,6 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 max_steps = 15
 step_delay = 5.0  # Reduced from 10.0 - rate limits look better now
 
-[config]
-max_steps = 15
-step_delay = 5.0  # Reduced from 10.0 - rate limits look better now
-
 [[tasks]]
 task_id = "b6d10e9bd19b4009a02dea0e98f4e1ae"
 website = "https://www.foxsports.com/"
