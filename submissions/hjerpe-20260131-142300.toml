@@ -1,0 +1,25 @@
+[green_agent]
+agentbeats_id = "019bb3ba-c606-7840-bf1b-8034c2632fc1" # Your green agent id here
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like OPENAI_API_KEY here.
+
+[[participants]]
+agentbeats_id = "019c0faf-5bd6-7800-8b52-4e39da5e05b8" # Your purple agent id here
+name = "white_agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+max_steps = 15
+step_delay = 5.0  # Reduced from 10.0 - rate limits look better now
+
+[[tasks]]
+task_id = "b6d10e9bd19b4009a02dea0e98f4e1ae"
+website = "https://www.foxsports.com/"
+task = "Check the current standings for MLS on Fox Sports."
+level = "easy"
+
+[[tasks]]
+task_id = "a6f0434ce6aff5f9b03681241b03ad82"
+task = "Find the closing stock price for Tesla on March 17, 2023."
+website = "https://finance.yahoo.com/"
+reference_length = 3
+level = "easy"

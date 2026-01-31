@@ -1,0 +1,57 @@
+{
+  "participants": {
+    "white_agent": "019c0faf-5bd6-7800-8b52-4e39da5e05b8"
+  },
+  "results": [
+    {
+      "winner": "none",
+      "detail": {
+        "success_rate": 0.0,
+        "successful_tasks": 0,
+        "total_tasks": 2,
+        "tasks": [
+          {
+            "task_id": "b6d10e9bd19b4009a02dea0e98f4e1ae",
+            "task_id_with_timestamp": "b6d10e9bd19b4009a02dea0e98f4e1ae_20260131_142050_037836",
+            "website": "https://www.foxsports.com/",
+            "task_description": "Check the current standings for MLS on Fox Sports.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 3,
+            "max_steps": 15,
+            "thoughts": [
+              "Step 1: PARSE ERROR: Could not understand response format. Expected JSON with <json> tags or structured text (THOUGHT:/ACTION:/PARAMS:). Raw response: ```json\n{\n    \"thought\": \"I need to find the MLS standings. I will start by clicking the Soccer link.\",\n    \"tool\": \"browser_click\",\n    \"params\": {\n        \"element\": \"SOCCER Logo SOCCER\",\n        \"r",
+              "Step 2: PARSE ERROR: Could not understand response format. Expected JSON with <json> tags or structured text (THOUGHT:/ACTION:/PARAMS:). Raw response: ```json\n{\n    \"thought\": \"I need to find the MLS standings. I will start by clicking the Soccer link.\",\n    \"tool\": \"browser_click\",\n    \"params\": {\n        \"element\": \"SOCCER Logo SOCCER\",\n        \"r",
+              "Step 3: PARSE ERROR: Could not understand response format. Expected JSON with <json> tags or structured text (THOUGHT:/ACTION:/PARAMS:). Raw response: ```json\n{\n    \"thought\": \"I need to find the MLS standings. I will start by clicking the Soccer link.\",\n    \"tool\": \"browser_click\",\n    \"params\": {\n        \"element\": \"SOCCER Logo SOCCER\",\n        \"r"
+            ],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/b6d10e9bd19b4009a02dea0e98f4e1ae_20260131_142050_037836/trajectory/step_000.jpg"
+            ],
+            "error": "Task failed after 3 consecutive parse errors"
+          },
+          {
+            "task_id": "a6f0434ce6aff5f9b03681241b03ad82",
+            "task_id_with_timestamp": "a6f0434ce6aff5f9b03681241b03ad82_20260131_142125_935258",
+            "website": "https://finance.yahoo.com/",
+            "task_description": "Find the closing stock price for Tesla on March 17, 2023.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 3,
+            "max_steps": 15,
+            "thoughts": [
+              "Step 1: PARSE ERROR: Could not understand response format. Expected JSON with <json> tags or structured text (THOUGHT:/ACTION:/PARAMS:). Raw response: ```json\n{\n    \"thought\": \"I need to find the closing stock price for Tesla on March 17, 2023. First, I need to search for the ticker symbol for Tesla, which is TSLA.\",\n    \"tool\": \"browser_type\",\n    ",
+              "Step 2: PARSE ERROR: Could not understand response format. Expected JSON with <json> tags or structured text (THOUGHT:/ACTION:/PARAMS:). Raw response: ```json\n{\n    \"thought\": \"I need to find the closing stock price for Tesla on March 17, 2023. First, I need to search for the ticker symbol for Tesla, which is TSLA.\",\n    \"tool\": \"browser_type\",\n    ",
+              "Step 3: PARSE ERROR: Could not understand response format. Expected JSON with <json> tags or structured text (THOUGHT:/ACTION:/PARAMS:). Raw response: ```json\n{\n    \"thought\": \"I need to find the closing stock price for Tesla on March 17, 2023. First, I need to search for the ticker symbol for Tesla, which is TSLA.\",\n    \"tool\": \"browser_type\",\n    "
+            ],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/a6f0434ce6aff5f9b03681241b03ad82_20260131_142125_935258/trajectory/step_000.jpg"
+            ],
+            "error": "Task failed after 3 consecutive parse errors"
+          }
+        ]
+      }
+    }
+  ]
+}
