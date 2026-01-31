@@ -1,0 +1,350 @@
+{
+  "participants": {
+    "white_agent": "019c0faf-5bd6-7800-8b52-4e39da5e05b8"
+  },
+  "results": [
+    {
+      "winner": "none",
+      "detail": {
+        "success_rate": 0.0,
+        "successful_tasks": 0,
+        "total_tasks": 20,
+        "tasks": [
+          {
+            "task_id": "b6d10e9bd19b4009a02dea0e98f4e1ae",
+            "task_id_with_timestamp": "b6d10e9bd19b4009a02dea0e98f4e1ae_20260131_172517_656885",
+            "website": "https://www.foxsports.com/",
+            "task_description": "Check the current standings for MLS on Fox Sports.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 2,
+            "max_steps": 15,
+            "thoughts": [
+              "Step 1: I need to find MLS standings. The most direct way to do this is to use the search functionality. I see a 'Search' button [ref=e14] on the page. I will click this button to open the search bar."
+            ],
+            "action_history": [
+              "<Search button> -> CLICK"
+            ],
+            "screenshots": [
+              ".output/results/b6d10e9bd19b4009a02dea0e98f4e1ae_20260131_172517_656885/trajectory/step_000.jpg",
+              ".output/results/b6d10e9bd19b4009a02dea0e98f4e1ae_20260131_172517_656885/trajectory/step_001.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'df175670-9b57-4356-93c9-f396933c1dd7', 'status': 'failed'}"
+          },
+          {
+            "task_id": "a6f0434ce6aff5f9b03681241b03ad82",
+            "task_id_with_timestamp": "a6f0434ce6aff5f9b03681241b03ad82_20260131_172840_846579",
+            "website": "https://finance.yahoo.com/",
+            "task_description": "Find the closing stock price for Tesla on March 17, 2023.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/a6f0434ce6aff5f9b03681241b03ad82_20260131_172840_846579/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'e774d5aa-7b8b-4e01-9d37-18fc4f93b4d7', 'status': 'failed'}"
+          },
+          {
+            "task_id": "828c2d98616a9478d5864d847d5a1b28",
+            "task_id_with_timestamp": "828c2d98616a9478d5864d847d5a1b28_20260131_173149_322539",
+            "website": "https://www.justice.gov/",
+            "task_description": "Browse the list of Civil Division forms.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 3,
+            "max_steps": 15,
+            "thoughts": [
+              "Step 1: The page is displaying a security check with a button \"I am not a robot\". I need to click this button to proceed and hopefully get to the main content of the website.",
+              "Step 2: I need to find the Civil Division forms. I will use the search bar to look for \"Civil Division forms\"."
+            ],
+            "action_history": [
+              "<I am not a robot button> -> CLICK",
+              "<Searchbox> -> TYPE: Civil Division forms"
+            ],
+            "screenshots": [
+              ".output/results/828c2d98616a9478d5864d847d5a1b28_20260131_173149_322539/trajectory/step_000.jpg",
+              ".output/results/828c2d98616a9478d5864d847d5a1b28_20260131_173149_322539/trajectory/step_001.jpg",
+              ".output/results/828c2d98616a9478d5864d847d5a1b28_20260131_173149_322539/trajectory/step_002.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'a210a1cf-9a7a-4d6b-b170-8eb99f13f958', 'status': 'failed'}"
+          },
+          {
+            "task_id": "461ab9b0c7b20ac5f912704480979c65",
+            "task_id_with_timestamp": "461ab9b0c7b20ac5f912704480979c65_20260131_173631_624578",
+            "website": "https://www.nyse.com/",
+            "task_description": "Find the NYSE Rule 605 Market Center Files data for July 2024.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/461ab9b0c7b20ac5f912704480979c65_20260131_173631_624578/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '99459939-d418-4e73-ba75-4b0e18272134', 'status': 'failed'}"
+          },
+          {
+            "task_id": "1fc28d91d25ccd1c6ba268101326a654",
+            "task_id_with_timestamp": "1fc28d91d25ccd1c6ba268101326a654_20260131_173936_345507",
+            "website": "https://www.google.com/finance/",
+            "task_description": "Find the 5-day price chart for Bitcoin.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/1fc28d91d25ccd1c6ba268101326a654_20260131_173936_345507/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '6ee23045-54b5-46b6-8747-1181072cb6a5', 'status': 'failed'}"
+          },
+          {
+            "task_id": "c2153fc053112e89c2f103869c4d6890",
+            "task_id_with_timestamp": "c2153fc053112e89c2f103869c4d6890_20260131_174241_591781",
+            "website": "https://www.thumbtack.com/",
+            "task_description": "Find a house cleaning service in 10001 on a weekly basis.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/c2153fc053112e89c2f103869c4d6890_20260131_174241_591781/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '6e4a9819-b047-47c3-ab5f-98bda9aac07c', 'status': 'failed'}"
+          },
+          {
+            "task_id": "f00e7accfb4a5e09680bdb326e6274ad",
+            "task_id_with_timestamp": "f00e7accfb4a5e09680bdb326e6274ad_20260131_174547_269910",
+            "website": "https://www.accuweather.com/",
+            "task_description": "Check the hourly forecast for Boston.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/f00e7accfb4a5e09680bdb326e6274ad_20260131_174547_269910/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '00d1204f-33b5-4978-b81e-eb8e5f6005f6', 'status': 'failed'}"
+          },
+          {
+            "task_id": "e3ab665e01e7632ce33ac1aeca14aff6",
+            "task_id_with_timestamp": "e3ab665e01e7632ce33ac1aeca14aff6_20260131_174851_006762",
+            "website": "https://www.recreation.gov/",
+            "task_description": "Find the next available dates for Alley Creek Camp.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/e3ab665e01e7632ce33ac1aeca14aff6_20260131_174851_006762/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '2e1a7f35-de83-45f1-a1aa-53cc7ab95e02', 'status': 'failed'}"
+          },
+          {
+            "task_id": "9bb63ad0e38d5691a618932a8b31c05a",
+            "task_id_with_timestamp": "9bb63ad0e38d5691a618932a8b31c05a_20260131_175156_277439",
+            "website": "https://www.google.com/shopping?udm=28",
+            "task_description": "Look for reviews of a Nest Hello Video Doorbell and filter by 1-star ratings.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/9bb63ad0e38d5691a618932a8b31c05a_20260131_175156_277439/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'a270bd04-516e-408c-bbe6-a4512d527d26', 'status': 'failed'}"
+          },
+          {
+            "task_id": "c8d7f2aa7eb5dd074c48c9f76f8659ad",
+            "task_id_with_timestamp": "c8d7f2aa7eb5dd074c48c9f76f8659ad_20260131_175501_423602",
+            "website": "https://www.dmv.virginia.gov/",
+            "task_description": "Show Teen Driver Safety program information.",
+            "level": "easy",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/c8d7f2aa7eb5dd074c48c9f76f8659ad_20260131_175501_423602/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '0d6f951b-af7d-4aa1-bf1f-9e46adcca001', 'status': 'failed'}"
+          },
+          {
+            "task_id": "c00437fd76a7a83b57f3dc4e5dbc41f8",
+            "task_id_with_timestamp": "c00437fd76a7a83b57f3dc4e5dbc41f8_20260131_175807_072417",
+            "website": "https://www.amazon.jobs/",
+            "task_description": "Check the most recent full-time medical health and safety jobs, requiring 1-3 years of industry experience available in the US.",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/c00437fd76a7a83b57f3dc4e5dbc41f8_20260131_175807_072417/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'b9424a5f-4262-4087-b56c-7e3cfb4bed0b', 'status': 'failed'}"
+          },
+          {
+            "task_id": "a69d2934fe54fef165490a5a2d95bf38",
+            "task_id_with_timestamp": "a69d2934fe54fef165490a5a2d95bf38_20260131_180114_323836",
+            "website": "https://cookpad.com/",
+            "task_description": "Show me recipes for pancakes with wheat and without beetroot.",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/a69d2934fe54fef165490a5a2d95bf38_20260131_180114_323836/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '1e902664-7ab2-424a-8dbf-52f815aa1ae2', 'status': 'failed'}"
+          },
+          {
+            "task_id": "7e6993f2c5cd72c44809024f0bc85dc1",
+            "task_id_with_timestamp": "7e6993f2c5cd72c44809024f0bc85dc1_20260131_180418_774491",
+            "website": "https://imgur.com/",
+            "task_description": "Create a meme with a frog as the background and leave the only text with \"Enjoy your life\".",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/7e6993f2c5cd72c44809024f0bc85dc1_20260131_180418_774491/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '67651344-c370-46f6-a2c9-9d033f306333', 'status': 'failed'}"
+          },
+          {
+            "task_id": "0e42c3a73f2aece1f854e0ba55b7c8b0",
+            "task_id_with_timestamp": "0e42c3a73f2aece1f854e0ba55b7c8b0_20260131_180731_321211",
+            "website": "https://www.google.com/maps/",
+            "task_description": "Find a gas station in Manhattan, NY with a rating above 4.0, and sort the user reviews by the lowest rating.",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/0e42c3a73f2aece1f854e0ba55b7c8b0_20260131_180731_321211/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'e1918aa8-4a3a-4db8-8301-a39fb1bbaea6', 'status': 'failed'}"
+          },
+          {
+            "task_id": "7c09c2c7c87cf6bb1138701eb54284ea",
+            "task_id_with_timestamp": "7c09c2c7c87cf6bb1138701eb54284ea_20260131_181035_491252",
+            "website": "https://phys.org/",
+            "task_description": "Find the comments for the most popular news in the past month under the Quantum Physics topic.",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/7c09c2c7c87cf6bb1138701eb54284ea_20260131_181035_491252/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'a73c1778-562b-4acb-80af-0d3095a23711', 'status': 'failed'}"
+          },
+          {
+            "task_id": "7abdceee212151f187ee1a1744c57606",
+            "task_id_with_timestamp": "7abdceee212151f187ee1a1744c57606_20260131_181339_185481",
+            "website": "https://www.uscis.gov/",
+            "task_description": "Can you show me the page with the filing fee for a self-petitioned I-140 application?",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/7abdceee212151f187ee1a1744c57606_20260131_181339_185481/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'dcf51f0a-f3fd-4fc1-90ed-63c3b00dd20d', 'status': 'failed'}"
+          },
+          {
+            "task_id": "78baf9dbe7c3532f7d7ef4cc22a7f065_121125",
+            "task_id_with_timestamp": "78baf9dbe7c3532f7d7ef4cc22a7f065_121125_20260131_181643_905122",
+            "website": "https://www.statista.com/",
+            "task_description": "Find the newest digital trends report in the Finance & Insurance industry within the region of China.",
+            "level": "medium",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/78baf9dbe7c3532f7d7ef4cc22a7f065_121125_20260131_181643_905122/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '2a435794-4aab-42ae-914d-7215dc795d9f', 'status': 'failed'}"
+          },
+          {
+            "task_id": "8fdec8eeffd3491e6526cc78c028120b",
+            "task_id_with_timestamp": "8fdec8eeffd3491e6526cc78c028120b_20260131_181949_130462",
+            "website": "https://www.carmax.com/",
+            "task_description": "See Nissan and Honda cars for sale near Kentwood, MI 49512 on CarMax.",
+            "level": "hard",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/8fdec8eeffd3491e6526cc78c028120b_20260131_181949_130462/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '07bbff8d-0a0b-4321-919c-229225869290', 'status': 'failed'}"
+          },
+          {
+            "task_id": "1c3b747ae12ccee895745f82e3f2ef8a",
+            "task_id_with_timestamp": "1c3b747ae12ccee895745f82e3f2ef8a_20260131_182256_100310",
+            "website": "https://www.kaggle.com/",
+            "task_description": "Identify the ongoing competition that offers the highest prize and find the code that received the most votes in that competition.",
+            "level": "hard",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/1c3b747ae12ccee895745f82e3f2ef8a_20260131_182256_100310/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': '85e2f20b-246a-4cf3-9123-1d2baaac694c', 'status': 'failed'}"
+          },
+          {
+            "task_id": "7e1047f4803237f319c004f7a7f6bccb_121125",
+            "task_id_with_timestamp": "7e1047f4803237f319c004f7a7f6bccb_121125_20260131_182600_681873",
+            "website": "https://www.bestbuy.com/",
+            "task_description": "Discover the trade-in value of my Intel 10th generation i5, 2021, HP laptop in fair condition, which has 8 GB memory and can be powered on, proceed for the in-store trade-in.",
+            "level": "hard",
+            "success": false,
+            "steps_taken": 1,
+            "max_steps": 15,
+            "thoughts": [],
+            "action_history": [],
+            "screenshots": [
+              ".output/results/7e1047f4803237f319c004f7a7f6bccb_121125_20260131_182600_681873/trajectory/step_000.jpg"
+            ],
+            "error": "White agent timed out: http://white_agent:9009/ responded with: {'response': \"LLM call exceeded total timeout of 180s after 2 attempts. Last error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\", 'context_id': 'b271deb6-08f8-41f2-8e4e-b696d589c6c6', 'status': 'failed'}"
+          }
+        ]
+      }
+    }
+  ]
+}
