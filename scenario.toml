@@ -18,13 +18,6 @@ task = "Check the current standings for MLS on Fox Sports."
 level = "easy"
 
 [[tasks]]
-task_id = "34992feb69eb8e788faa06868b365c49"
-task = "Submit a request for vehicle registration renewal with title number X123456 and last 4 digits of VIN is 1234."
-website = "https://www.dmv.virginia.gov/"
-reference_length = 5
-level = "easy"
-
-[[tasks]]
 task_id = "a6f0434ce6aff5f9b03681241b03ad82"
 task = "Find the closing stock price for Tesla on March 17, 2023."
 website = "https://finance.yahoo.com/"
@@ -85,13 +78,6 @@ task_id = "c8d7f2aa7eb5dd074c48c9f76f8659ad"
 task = "Show Teen Driver Safety program information."
 website = "https://www.dmv.virginia.gov/"
 reference_length = 2
-level = "easy"
-
-[[tasks]]
-task_id = "4091bdd3fa64a5b0d912bc08eaf9c824"
-task = "Find the list of neighborhood maps for Brooklyn on new.mta.info."
-website = "https://new.mta.info/"
-reference_length = 5
 level = "easy"
 
 [[tasks]]
